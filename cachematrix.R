@@ -1,5 +1,8 @@
-## 
-## functions do
+## These two functions use a modified version of the makeVector and cachemean functions provided in class.
+## There are 2 main differences:
+## 1.The input to the "make" function is a square matrix instead of a vector.
+## 2.Both functions use the function solve instead of mean to calculate the matrix inverse
+## All function names and variables have been updated to reflect the code intent
 
 ## Write a short comment describing this function
 
