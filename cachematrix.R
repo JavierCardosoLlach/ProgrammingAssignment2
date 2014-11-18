@@ -4,7 +4,7 @@
 ## 2.Both functions use the function solve instead of mean to calculate the matrix inverse
 ## All function names and variables have been updated to reflect the code intent
 
-## Write a short comment describing this function
+## This function will create a list of 4 functions to set and get the values for the matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -21,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function either retrieves the chached value of the inverse of matrix x. 
+## If the value is not cached it will calculate it using the solve function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
